@@ -2,13 +2,15 @@ COMPILING AND RUNNING
 
 ASSUMPTIONS:
 The code will not create or insert starting data. To do this, please use the provided code found in Database.sql to create the table and insert data through pgAdmin4.  
-To connect to the database, the code will ask for the database name and your password to your account. 
+To connect to the database, the code will ask for the database name and the password to your account. 
 
 TO RUN: 
 1. This program requires that psycopg2 be installed. If this has already been downloaded, skip the next step. 
-2. To do this, in the termainal run "python -m pip install psycopg2"
-    Note: for me I had to use "py" instead of "python"
-3. Once psychopg2 has been downloaded, navigate to the folder containing the provided code. 
-4. Now in the folder, in the terminal, enter "python question1.py" (Note: for me again, I have to use "py" instead of "python")
+2. To install psychopg2, open the terminal either in the IDE or open command prompt. Once in the termainal, run "python -m pip install psycopg2"
+    Note: I had to use "py" instead of "python"
+3. Once psychopg2 has been downloaded, navigate to the directory containing the provided code. 
+4. Now in the desired directory, in the terminal, enter "python question1.py" (Note: for me again, I have to use "py" instead of "python")
+5. The code will ask for you to enter your database name and the password to your account. It will connect to the database before printing out the different CRUD operations. 
+Enter the number of the operation and follow the next steps if provided. 
 
-VIDEO LINK: 
+VIDEO LINK: https://youtu.be/3duZsvYOzrs
